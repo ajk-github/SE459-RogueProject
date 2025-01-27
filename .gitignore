@@ -1,0 +1,10 @@
+*.class
+*.log
+*.jar
+*.war
+*.ear
+*.iml
+/out/
+.idea/
+.vscode/
+build/
