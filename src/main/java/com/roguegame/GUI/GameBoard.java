@@ -57,12 +57,12 @@ public class GameBoard extends JPanel implements KeyListener {
 		g.drawString("HP: "+Reference.player.getHP()+"/"+Reference.player.getMaxHP(), 800, 75);
 		g.drawString("STR: "+Reference.player.getStr(), 800, 95);
 		g.drawString("DEF: "+Reference.player.getDef(), 800, 115);
-		// g.drawString("Gold: "+Reference.player.getGold(), 800, 140);
-		// g.drawString("Keys: "+Reference.player.getKeys(), 800, 160);
-		// g.drawString("Weapon Equipped:", 800, 185);
-		// g.drawString(Reference.player.getWeapon().getName(), 810, 205);
-		// g.drawString("Armor Equipped:", 800, 230);
-		// g.drawString(Reference.player.getArmor().getName(), 810, 250);
+		g.drawString("Gold: "+Reference.player.getGold(), 800, 140);
+		g.drawString("Keys: "+Reference.player.getKeys(), 800, 160);
+		g.drawString("Weapon Equipped:", 800, 185);
+		g.drawString(Reference.player.getWeapon().getName(), 810, 205);
+		g.drawString("Armor Equipped:", 800, 230);
+		g.drawString(Reference.player.getArmor().getName(), 810, 250);
 		
 		//Message
 		g.drawString(Functions.getMessage(), 15, 480);
