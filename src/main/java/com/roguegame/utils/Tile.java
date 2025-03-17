@@ -7,10 +7,10 @@ public enum Tile {
 	PLAYER('@'),
 	STAIRS('^'),
 	TRAP('.'),
-	HP_POTION('.'),
-	GOLD('.'),
+	HP_POTION('P'),
+	GOLD('G'),
 	TREASURE('.'),
-	KEY('.'),
+	KEY('K'),
 	DOOR('.'),
 	MONSTER('M');
 	
